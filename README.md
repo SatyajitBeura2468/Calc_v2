@@ -1,32 +1,48 @@
 # Calc V2
 
-Calc V2 is an immersive calculation studio for everyday maths, scientific expressions, unit conversion, and live graphing.
+Calc V2 is a powerful calculator that works right in your browser.
 
-## Open the app
+## Open the calculator
 
-The live link will be added here after the first production deployment.
+### [👉 Click here to open Calc V2](https://calc-v2-pi.vercel.app)
 
-## Highlights
+That is all you need. No download, no account, and no setup.
 
-- Basic and scientific calculator modes
-- Live function graphing
-- Length, mass, temperature, and time conversion
-- Persistent calculation history, pins, workspaces, and memory
-- Four visual atmospheres with custom accents, key shapes, density, motion, sound, and haptics
-- Command palette with `Ctrl + K`
-- Keyboard controls and responsive mobile layout
-- Local-first storage: calculations stay in your browser
+## What can it do?
 
-## Run locally
+- Normal calculations
+- Scientific maths
+- Live function graphs
+- Unit conversion
+- Calculation history and memory
+- Different themes, colours, key shapes, sounds, motion, and layouts
+
+Your settings and history are saved in your own browser.
+
+## Useful tip
+
+Press `Ctrl + K` to open the command menu and jump anywhere quickly.
+
+## Run it on your computer
+
+1. Install [Node.js](https://nodejs.org/).
+2. Download this repository.
+3. Open a terminal inside the downloaded folder.
+4. Run:
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Production checks
+Then open the local link shown in the terminal.
+
+## For developers
 
 ```bash
+npm test
 npm run lint
 npm run build
 ```
+
+Built with React, TypeScript, Vite, Math.js, and a lot of unreasonable calculator ambition.
